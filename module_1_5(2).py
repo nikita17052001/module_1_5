@@ -1,0 +1,20 @@
+immutable_var = ("String ", 1, 2, True, 1.5)
+print(immutable_var)
+#immutable_var[0] = 'balls'
+#print(immutable_var)
+#Кортеж явялется неизменяемым обЪектом(кроме слукчая с добавлением списка внутри кортежа"([1, 2], 1, 2)
+mutable_list = ["Song of Iron", True, 1, 2, 3,]
+print(mutable_list)
+mutable_list[0] = 'AC/DC'
+print(mutable_list)
+mutable_list.append(False)
+print(mutable_list)
+mutable_list.extend('Rikoshet')
+print(mutable_list)
+mutable_list.extend([1, 2, 'changes'])
+print(mutable_list)
+mutable_list.remove('R')
+print(mutable_list)
+print('changes' in mutable_list)
+print(mutable_list[:3])
+print(mutable_list[:3:4])
